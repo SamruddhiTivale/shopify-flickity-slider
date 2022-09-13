@@ -1,0 +1,76 @@
+/* Slider CSS */
+  .collection-data-text{
+    position : relative;
+    background-size: cover;
+    padding: 38px;
+    margin : 0 10px;
+    outline: 1px dashed white;
+    outline-offset: -12px;
+    border-radius: 4px;
+    min-height: 340px;
+}
+  .inner-data {
+    position: absolute;
+    bottom: 45px;
+}
+.section-header p, .section-header h2{
+  font-family: 'Poppins', sans-serif;
+  margin: 0px 0px 10px 0px;
+}
+.section-header{
+  margin: 0px 0px 10px 10px;
+}  
+.inner-data h3, .inner-data p, .btn-collection-slider{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+  .inner-data h3 {
+    font-size: 20px;
+    text-shadow: 2px 2px #32292973;
+    margin: 0;
+    }
+  .inner-data p {
+    font-style: italic;
+    margin: 0px;
+    padding: 2px 0;
+}
+  .btn-collection-slider {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 2px;
+    font-size: 15px;
+}
+  .inner-data p span {
+    background-color: #c4984f;
+    padding: 0px 5px 0px 2px;
+    border-radius: 4px 0 4px 0;
+}
+/* external css: flickity.css */
+.image-slider-section {
+    width: 400px;
+}
+.carousel-cell {
+  width: auto;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+  background-size: cover;
+  padding: 38px;
+  margin : 0 10px;
+  outline: 1px dashed white;
+  outline-offset: -12px;
+  border-radius: 4px;
+  min-height: 340px;
+}
+
+.carousel-cell.is-selected {
+  background: #ED2;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
